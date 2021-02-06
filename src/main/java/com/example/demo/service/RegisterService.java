@@ -16,5 +16,10 @@ public class RegisterService {
 		
 		return new User(13,"toshi");
 	}
+
+	public User update(int userId) {
+		
+		return new User(userId,"upadtedMInkal");
+	}
 	
 }
